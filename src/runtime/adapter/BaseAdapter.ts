@@ -1,5 +1,4 @@
 export abstract class BaseAdapter {
-
   // to select element
   protected select(selector: string, target?: Element): Element | null {
     return (target || document).querySelector(selector);
@@ -17,7 +16,7 @@ export abstract class BaseAdapter {
       target || document,
       null,
       XPathResult.FIRST_ORDERED_NODE_TYPE,
-      null,
+      null
     );
     return result.singleNodeValue as Element | null;
   }
