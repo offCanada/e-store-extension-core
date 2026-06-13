@@ -1,4 +1,4 @@
-import { StoreAdapter, StoreStructure } from '../StoreAdapter';
+import { StoreAdapter } from '../StoreAdapter';
 
 export class SampleAdapter extends StoreAdapter {
   readonly structure = {
